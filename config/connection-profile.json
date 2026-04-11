@@ -1,0 +1,38 @@
+{
+  "name": "asset-network",
+  "version": "1.0.0",
+  "client": {
+    "organization": "Org1",
+    "connection": {
+      "timeout": {
+        "peer": { "endorser": "300" },
+        "orderer": "300"
+      }
+    }
+  },
+  "channels": {
+    "asset-channel": {
+      "orderers": ["orderer.acoria.local"],
+      "peers": {
+        "peer0.org1.acoria.local": {}
+      }
+    }
+  },
+  "organizations": {
+    "Org1": {
+      "mspid": "Org1MSP",
+      "peers": ["peer0.org1.acoria.local"],
+      "certificateAuthorities": ["ca.org1.acoria.local"]
+    }
+  },
+  "orderers": {
+    "orderer.acoria.local": {
+      "url": "grpc://localhost:7050"
+    }
+  },
+  "peers": {
+    "peer0.org1.acoria.local": {
+      "url": "grpc://localhost:7051"
+    }
+  }
+}

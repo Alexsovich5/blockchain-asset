@@ -1,0 +1,18 @@
+{
+  "name": "blockchain-asset-management",
+  "version": "1.0.0",
+  "description": "Blockchain IT Asset Management - ACORIA",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha tests/"
+  },
+  "dependencies": {
+    "express": "^4.15.0",
+    "fabric-client": "^1.0.0",
+    "fabric-ca-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
