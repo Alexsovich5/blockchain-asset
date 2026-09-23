@@ -1,7 +1,7 @@
 {
   "name": "blockchain-asset-management",
   "version": "1.0.0",
-  "description": "Blockchain IT Asset Management - ACORIA",
+  "description": "Blockchain IT Asset Management",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

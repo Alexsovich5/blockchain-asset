@@ -12,26 +12,26 @@
   },
   "channels": {
     "asset-channel": {
-      "orderers": ["orderer.acoria.local"],
+      "orderers": ["orderer.example.local"],
       "peers": {
-        "peer0.org1.acoria.local": {}
+        "peer0.org1.example.local": {}
       }
     }
   },
   "organizations": {
     "Org1": {
       "mspid": "Org1MSP",
-      "peers": ["peer0.org1.acoria.local"],
-      "certificateAuthorities": ["ca.org1.acoria.local"]
+      "peers": ["peer0.org1.example.local"],
+      "certificateAuthorities": ["ca.org1.example.local"]
     }
   },
   "orderers": {
-    "orderer.acoria.local": {
+    "orderer.example.local": {
       "url": "grpc://localhost:7050"
     }
   },
   "peers": {
-    "peer0.org1.acoria.local": {
+    "peer0.org1.example.local": {
       "url": "grpc://localhost:7051"
     }
   }

@@ -1,6 +1,5 @@
 /*
  * IT Asset Management Chaincode
- * IT Operations Specialist - ACORIA (2017)
  *
  * Hyperledger Fabric smart contract for managing IT asset
  * lifecycle with immutable audit trail.

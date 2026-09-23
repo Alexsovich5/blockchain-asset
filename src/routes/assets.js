@@ -1,6 +1,5 @@
 /**
  * Asset API Routes
- * IT Operations Specialist - ACORIA (2017)
  */
 
 'use strict';

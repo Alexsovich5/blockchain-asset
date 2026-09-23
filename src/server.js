@@ -1,6 +1,5 @@
 /**
  * Blockchain Asset Management API Server
- * IT Operations Specialist - ACORIA (2017)
  */
 
 'use strict';
